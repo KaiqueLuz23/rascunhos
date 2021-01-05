@@ -1,5 +1,5 @@
 // currying
-/*
+
 function soma(a){
     return function(b){
         return a + b;
@@ -10,10 +10,10 @@ const soma2 = soma(2);
 
 console.log(soma2(2));
 console.log(soma2(5));
-*/
+
 
 // hoisting variaves
-/*
+
 function fn(){
     console.log(text);
 
@@ -21,10 +21,10 @@ function fn(){
     console.log(text);
 }
 
-fn();*/
+fn();
 
 // hoisting funcoes
-/*
+
 function fn(){
     log("hoisting teste");
 
@@ -32,10 +32,10 @@ function fn(){
         console.log(value);
     }
 }
-fn();*/
+fn();
 
 // imutabilidade 
-/*
+
 const user = {
     name: 'Kaique',
     lastName: 'Luz'
@@ -50,6 +50,6 @@ function getUserWithFullName(user){
 
 const userWithFullName = getUserWithFullName(user);
 
-console.log(userWithFullName);*/
+console.log(userWithFullName);
 
 
